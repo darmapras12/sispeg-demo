@@ -1,0 +1,12 @@
+/* Efek fade-in dan geser ke atas sedikit saat angka muncul */
+.angka-bergulir {
+    opacity: 0;
+    transform: translateY(5px);
+    transition: all 0.5s ease-out;
+    display: inline-block;
+}
+
+.angka-bergulir.muncul {
+    opacity: 1;
+    transform: translateY(0);
+}
